@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Amrita Jain</title>
+        <script src="https://kit.fontawesome.com/c0f922a5e8.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+
+    <!--------------------------------Header and Navigation section-------------------------------------------->
+        <div id="Header">
+            <div class="container">
+                <nav class="navigation">
+                    <img src="Images/AmritaJain_logo_3.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#Header" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+        <div class="header-text-image">
+            <!--------------------------------first column--------------------------------------------> 
+            <div class="first-column">
+                <div class="header-text">
+                    <span id="header_paragraph_first_word">Hello! </span><span id="header_paragraph">I'm a seasoned psychologist dedicated to fostering well-being and personal growth welcome to my virtual space!</span>                   
+                </div>
+
+                <div class="gif-container">
+                    <img src="gif/Tired-Thinking-GIF-unscreen.gif" alt="your gif" width="100%" height="auto">
+                </div>
+            </div>
+
+            <!--------------------------------second column-------------------------------------------->
+            <div class="middle-column">
+                <div class="wavy-line">
+                    <img src="Images/wavy_line_2.png" alt="user">
+                </div>
+            </div>
+
+            <!--------------------------------third column-------------------------------------------->
+            <div class="second-column">
+                <div class="header-image">
+                    <img src="Images/profile_pic_hd.png" alt="user">
+                </div>
+            </div>
+        </div>
+    <!--------------------------------About me section-------------------------------------------->
+    <div id="about">
+        <div class="about_me_container">
+            <div class="row">
+                
+                <div class="about-col-1">
+                        <img src="Images/Pic2.jpg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span id = "About">About </span><span id = "Me">Me</span></h1>
+                    <p id="About_me_para">I am a hard worker, dedicated and eager to 
+                        learn new things in the work place. Very easy going and work very well with 
+                        others or on my own. Willing to take on new challenges and willing to tackle any task at hand. 
+                        I am quick learner who is organized and goal oriented.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>SPSS : High proficiency</span><br>Desingning 3d assemblies</li>
+                            <li><span>MICROSOFT OFFICE : High proficiency</span><br>Machine learning</li>
+                            <li><span>C/C++ : High proficiency</span><br>Building desktop applications using .NET</li>
+                            <li><span>HTML/CSS/JavaScript : Intermediate proficiency</span><br>Building websites</li>
+                            <li><span>ROS framework : Beginner proficiency</span><br>Simulating robot and doing Mapping, Localization and Navigation using ROS framework.</li>
+                        </ul>
+                    </div>   
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Intern : Mindstar</span><br>Designing curriculum for child psychology course for parents</li>
+                            <li><span>Intern : Yuvana wellness</span><br>Worked in gynchology and obstetrician clinic to asses mental health of women</li>
+                            <li><span>Program Manager : HEAL.EXPERT</span><br>Created a detailed decision tree for psychological disorders</li>
+                            <li><span>LIFE-SKILL TRAINER : HEALING DOVE FOUNDATION</span><br>Trained unprivileged children with Life Skills</li>
+                            <li><span>Assistant : Lucky Garments</span><br>Assisted in a family-owned business. | Managed accounts, sales and marketing</li>
+                            
+                        </ul>
+                    </div>   
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Master of Arts. (Clinical Psychology) : GPA - 9/10</span><br>Fergusson College, Pune, India</li>
+                            <li><span>Bachelor of Arts. (Psychology) : GPA - 9.85/10</span><br>Fergusson College, Pune, India</li>
+                            <li><span>High School</span><br>Bhavans Vidya Mandir, Nagpur, India</li>
+                        </ul>
+                    </div>   
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------portfolio section-------------------------------------------->
+<div id="portfolio">
+    <div id="portfolio_container">
+        <h1 class="sub-title"><span id="About">My</span> <span id="Me">Work</span></h1>
+        
+        <div class="work-list">
+
+            <div class="work">
+                <img src="Images/work_1.png">
+                    
+                <div class="layer">
+                    <h3>Nuclear Thermal Rocket Simulator</h3>
+                    <p id = "bigText">The purpose of this project is to construct a digital model of nuclear thermal propulsion
+                        rocket engine using numerical tools incorporating fundamental equations to determine whether we can optimize
+                        certain components and processes within NP rocket engine that will provide us with
+                        maximum efficiency in terms launching cost and also in terms of distance it can
+                        travel per kilogram of propellant(i.e., specific impulse).</p>
+                    <a href="https://drive.google.com/drive/folders/1vI-5F4fRaFPQP9XRAI8roJY12xX34-cT?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div> 
+
+            <div class="work">
+                <img src="Images/work_2.png">
+                <div class="layer">
+                    <h3>Automatic potato peeling machine</h3>
+                    <p id = "bigText"> This machine helps you peel potato in less than 10 seconds. The potato is mounted by pins on a
+                        motor-powered stage which rotates about the vertical axis. An arm is attached to a vertical
+                        power screw using a torsion spring. A knife is attached at the tip of the arm. As the power
+                        screw moves from top to bottom, the knife is pressed firmly against the surface of the potato
+                        by the torsion spring and removes its skin.</p>
+                    <a href="https://drive.google.com/drive/folders/103jwyOrFtLENZBJmR8wtcvwC5SnD1E4e?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Images/work_7.png">
+                <div class="layer">
+                    <h3>Alligator egg harvesting robot</h3>
+                    <p id = "bigText"> The robot aims to harvest alligator eggs in the 10-30cm proximity of alligator nests. The robot will, 
+                        be controlled remotely by a human operator, and it can withstand operational conditions in a 
+                        lake and marsh alligator farm area, harvest eggs without provoking the alligator, and 
+                        comply with other quantitative technical requirements set by the client.</p>
+                    <a href="https://drive.google.com/drive/folders/1tVDSuRZRqGKfyEIdWkdGxNyRHK56R_Y1?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="https://drive.google.com/drive/folders/1CiqtPL9G3KAO8V_9r2_O8KH2fEA7R2ry?usp=sharing" class="btn">See more</a>
+    </div>
+
+</div>
+
+<!--------------------------------contact section-------------------------------------------->
+
+<div id="contact">
+    <div id="portfolio_container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span id="About">Contact</span> <span id="Me">Me</span></h1>
+                <p class="email-text"><i class="fa-sharp fa-solid fa-paper-plane"></i>amritajain1811@gmail.com</p>
+                <p class="email-text"><i class="fa-solid fa-phone"></i>(+91)9011620886</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/jainik.mehta.71"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/_jainik_"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/jainik_mehta/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jainik-m/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="Images/Jainik_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name = "Name" class="input-box" placeholder="Your name" required>
+                    <input type="email" name = "Email" class="input-box" placeholder="Your email" required>
+                    <textarea rows="4" name="Message" class="input-box" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn2">Send</button>
+                </form>
+                <span id="success_message"></span>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <div class="copyright">
+            <p>Copyright © Amrita Jain / 2023</p>
+        </div>
+    </div>
+</div>
+
+
+    <!--------------------------------Navigation script section-------------------------------------------->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0px";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+        
+    </script>
+
+<!--------------------------------About me script section-------------------------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(var i=0; i<tablinks.length; i++){
+                tablinks[i].classList.remove("active-link");
+            }
+            for(var i=0; i<tabcontents.length; i++){
+                tabcontents[i].classList.remove("active-tab");
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+
+    </body>
+
+
+    </html>
